@@ -1,5 +1,5 @@
 import Footer from "@/_component/Footer";
-import Header from "@/_component/header";
+import Header from "@/_component/Header";
 
 
 
@@ -87,10 +87,7 @@ export default function RootLayout({ children }) {
         <div className="page-wrapper">
 
         <Header />
-        
         {children}
-        
-
         <Footer/>
        </div>
       </body>
